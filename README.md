@@ -18,9 +18,9 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 #### Key Concepts:
 - **Sigmoid Function**: Maps any real-valued number into a value between 0 and 1, representing the probability of the positive class.
   
- \[
-\sigma(z) = \frac{1}{1 + e^{-z}}
-\]
+    \[
+    \sigma(z) = \frac{1}{1 + e^{-z}}
+    \]
 
 - **Decision Boundary**: A threshold (commonly 0.5) used to classify the inputs as either class 0 or class 1.
 
