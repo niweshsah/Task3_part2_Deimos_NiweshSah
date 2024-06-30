@@ -46,3 +46,9 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 3. Run the script from your terminal: python breast_cancer_classification.py
 
 The script will print the accuracy of the model on the testing data.
+
+## Demo Video
+
+Refer to this [video]("add your link").
+
+**Recommended:** Watch this at 2x.
