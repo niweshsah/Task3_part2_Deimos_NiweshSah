@@ -24,44 +24,6 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 
 - **Decision Boundary**: A threshold (commonly 0.5) used to classify the inputs as either class 0 or class 1.
 
-#### Implementation Example:
-
-Here’s how you can implement logistic regression on the Wisconsin Breast Cancer Dataset:
-
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
-# Load the dataset
-url = "https://raw.githubusercontent.com/ageron/handson-ml2/master/datasets/breast_cancer/breast-cancer.csv"
-data = pd.read_csv(url)
-
-# Separate features and target
-X = data.drop(columns=['id', 'diagnosis'])
-y = data['diagnosis'].map({'M': 1, 'B': 0})  # Malignant = 1, Benign = 0
-
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Create a Logistic Regression model
-model = LogisticRegression(max_iter=10000)
-
-# Train the model
-model.fit(X_train, y_train)
-
-# Make predictions
-y_pred = model.predict(X_test)
-
-# Evaluate the model
-accuracy = accuracy_score(y_test, y_pred)
-print(f'Accuracy: {accuracy:.2f}')
-print('Classification Report:')
-print(classification_report(y_test, y_pred))
-print('Confusion Matrix:')
-print(confusion_matrix(y_test, y_pred))
-```
 
 ### Explanation:
 - **Data Preparation**: The dataset is loaded, and the 'id' and 'diagnosis' columns are handled.
