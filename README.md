@@ -39,7 +39,7 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 - **Linearity**: Assumes a linear relationship between features and the log-odds of the outcome.
 - **Feature Scaling**: It’s beneficial to scale features for better performance.
 
-#### Running the Script
+## Running the Script
 
 1. Save the code as breast_cancer_classification.py.
 2. Install required libraries: pip install numpy scikit-learn (if not already installed).
