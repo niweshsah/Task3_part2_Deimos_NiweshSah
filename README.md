@@ -44,4 +44,5 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 1. Save the code as breast_cancer_classification.py.
 2. Install required libraries: pip install numpy scikit-learn (if not already installed).
 3. Run the script from your terminal: python breast_cancer_classification.py
-4. The script will print the accuracy of the model on the testing data.
+
+The script will print the accuracy of the model on the testing data.
