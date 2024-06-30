@@ -22,6 +22,10 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
     \sigma(z) = \frac{1}{1 + e^{-z}}
     \]
 
+    $$
+    \text{The quadratic formula:} \quad ax^2 + bx + c = 0
+    $$
+
 - **Decision Boundary**: A threshold (commonly 0.5) used to classify the inputs as either class 0 or class 1.
 
 
