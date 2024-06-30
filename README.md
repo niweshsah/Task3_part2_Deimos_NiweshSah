@@ -47,8 +47,3 @@ The **Wisconsin Breast Cancer Dataset** is commonly used for binary classificati
 
 The script will print the accuracy of the model on the testing data.
 
-## Demo Video
-
-Refer to this [video]("add your link").
-
-**Recommended:** Watch this at 2x.
